@@ -16,7 +16,12 @@
                 text-align: start;
                 font-style: italic;
             }
-            
+            h2 {
+                color: rgb(255, 116, 36);
+                font-size: 30px;
+                text-align: justify;
+                font-style: normal;
+            }
             p {
                 color: rgb(31, 30, 30);
                 font-size: 18px;
@@ -25,7 +30,7 @@
     
         </style>
     </div>
-
+<section id="1.0">
     <div>    <!-- 4.2 Encabezados y Propiedades del Texto -->
 
         <div>  
@@ -36,24 +41,90 @@
             <h5> Hola world </h5>
             <h6> Hola world </h6>
         </div>
+        <section id="1.1">
+            <div> 
+                <h3> La batalla de Midway (en inglés) </h3>
+                
+                <p>The <b>Battle of Midway</b> 
+                    was a major naval battle in the <b>Pacific Theater</b>
+                    of <a href="/wiki/World_War_II" title="World War II">World War II</a> 
+                    that took place 4–7 June 1942, <b><em>six months after Japan's attack on Pearl Harbor</em></b> and one month after the Battle of the Coral Sea.
+    
+                </p>
+            </div>
+        </section>
+ 
+    </div>
+</section>
+
+    <div> <!-- Enlaces y Listas -->
+        <span> <h2> Listas </h2> </span>
+        <div>
+            <b> Lista desordenada:</b>
+            <ul> 
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+            <b> Lista ordenada:</b>
+            <ol>
+                <li>Primer elemento</li>
+                <li>Segundo Francia</li>
+                <li>Tercer elemento</li>
+            </ol>
+        </div>
 
         <div> 
-            <h3> La batalla de Midway (en inglés) </h3>
-            <p> La batalla<span style="color:rgba(81, 81, 255, 0.795);"></span> de Midway (en inglés).</p>
-            <p>The <b>Battle of Midway</b> 
-                was a major naval battle in the <b>Pacific Theater</b>
-                of <a href="/wiki/World_War_II" title="World War II">World War II</a> 
-                that took place 4–7 June 1942, <b><em>six months after Japan's attack on Pearl Harbor</em></b> and one month after the Battle of the Coral Sea.
-
-            </p>
+        <span> <h3> Enlaces </h3> </span>
+            <section id="2.0">
+        <b> Enlace externo:</b>
+        <ul> 
+            <li><b>Ir a: <a href="https://en.wikipedia.org/wiki/Battle_of_Midway" target="_blank"> Batalla de Midway </a></b></li>
+        </ul>
+        
+        <nav> 
+            <b> Enlaces internos:</b>
+                <ul> 
+                    <li><a href="#1.0">Encabezados y Propiedades del Texto </a></li>
+                    <li><a href="#1.1">Otra vez la batalla de Midway </a></li>
+                </ul>
+            </section>
+        </nav> 
         </div>
     </div>
 
-    <div> <!-- 4.3 Divisiones y Agrupación de Contenido -->
+    <!-- Media -->
+    <section id="Media"> 
+        <h1> Media </h1>
+        <div> 
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Navy_fighters_during_the_attack_on_the_Japanese_fleet_off_Midway%2C_June_4th_to_6th_1942._In_the_center_is_visible_a..._-_NARA_-_520591.tif/lossy-page1-767px-Navy_fighters_during_the_attack_on_the_Japanese_fleet_off_Midway%2C_June_4th_to_6th_1942._In_the_center_is_visible_a..._-_NARA_-_520591.tif.jpg" 
+            alt="Avion"
+            width="400px"
+            height="350px">
 
-        
-    </div>
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
+            controls >
+            <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+            controls 
+            width="400px"
+            height="350px">
+            
+        </div>
+        <div> 
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/l_3mleWduQ4?si=RVVEwCHCZcYThrUC" 
+            title="Video de Ferrari F40" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>    
+        </div>
 
+    </section>
 
+    <footer>
+        <p>©AB</p>
+    </footer>
 </body>
 </html>
