@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +11,9 @@
         <style>
            
             h1 {
-                color: blue;
+                color: rgb(0, 153, 255);
                 font-size: 36px;
-                text-align: start;
+                text-align: justify;
                 font-style: italic;
             }
             h2 {
@@ -27,7 +27,18 @@
                 font-size: 18px;
                 line-height: 1.3;
             }
-    
+            table {
+            width: 70%;
+            border-collapse: collapse;
+            }
+            th, td {
+            border: 1px solid #000000;
+            padding: 4px;
+            text-align: left;
+            }
+            th {
+            background-color: #aaaaaa9c;
+            }
         </style>
     </div>
 <section id="1.0">
@@ -108,7 +119,7 @@
             controls 
             width="400px"
             height="350px">
-            
+
         </div>
         <div> 
             <iframe width="560" height="315" 
@@ -117,12 +128,45 @@
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
+            allowfullscreen
+            autoplay
+            loop="true ">
         </iframe>    
         </div>
-
     </section>
 
+    <section id="Tablas"> 
+        <h1> Tabla </h1>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>descripción</th>
+                        <th>precio</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>Producto A</td>
+                            <td>Descripción del Producto A</td>
+                            <td>$10.00</td>
+                        </tr>
+                        <tr>
+                            <td>Producto B</td>
+                            <td>Descripción del Producto B</td>
+                            <td>$15.00</td>
+                        </tr>
+                        <tr>
+                            <td>Producto C</td>
+                            <td>Descripción del Producto C</td>
+                            <td>$20.00</td>
+                        </tr>
+                    </tbody>
+                </thead>    
+            </table>
+            
+        </div>
+    </section>
     <footer>
         <p>©AB</p>
     </footer>
