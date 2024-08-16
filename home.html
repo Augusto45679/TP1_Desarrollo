@@ -39,6 +39,37 @@
             th {
             background-color: #aaaaaa9c;
             }
+            form {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #7979798e;
+            border-radius: 5px;
+            }
+            label {
+            display: block;
+            margin-bottom: 5px;
+            }
+            input[type="text"],
+            input[type="email"],
+            textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+             }
+        input[type="submit"]:hover {
+            background-color: #45a0499f;
+        }
         </style>
     </div>
 <section id="1.0">
@@ -140,31 +171,59 @@
         <div>
             <table>
                 <thead>
-                    <tr>
-                        <th>Producto</th>
-                        <th>descripción</th>
-                        <th>precio</th>
+                    <tr> <!--columnas -->
+                        <th>Producto</th> <!-- dato -->
+                        <th>Descripción</th>
+                        <th>Precio</th>
                     </tr>
                     <tbody>
                         <tr>
-                            <td>Producto A</td>
-                            <td>Descripción del Producto A</td>
-                            <td>$10.00</td>
+                            <td>Harina, fila1</td> <!-- dato de la tabla -->
+                            <td>Hace muy bien</td>
+                            <td>$700</td>
                         </tr>
                         <tr>
-                            <td>Producto B</td>
-                            <td>Descripción del Producto B</td>
-                            <td>$15.00</td>
+                            <td>Dulce de Leche, fila2</td>
+                            <td> Orgullo nacional</td>
+                            <td>$350</td>
                         </tr>
                         <tr>
-                            <td>Producto C</td>
-                            <td>Descripción del Producto C</td>
-                            <td>$20.00</td>
+                            <td>Criollita, fila3</td>
+                            <td> con un yerbiado </td>
+                            <td>$500</td>
+                        </tr>
+                        <tr>
+                            <td>Tira de asado, fila4</td>
+                            <td>(está caro)</td>
+                            <td>8k$</td>
                         </tr>
                     </tbody>
                 </thead>    
             </table>
-            
+        </div>
+    </section>
+    <section id="Formularios"> 
+        <h1> Formularios </h1>
+        <div>
+            <form>
+                <div>       
+                    <label>Email: </label>
+                    <input type="email" placeholder="juanperez@gmail.com">
+                </div> 
+                <div>
+                    <label>Nombre: </label>
+                    <input type="text"placeholder="Juan Perez">
+                </div>
+                <div>
+                    <label>Mensaje: </label>
+                    <input type="text" placeholder="">
+                </div>
+                <div>
+                    <label>Enviar: </label>
+                <input type="submit">
+                </div>
+
+            </form>
         </div>
     </section>
     <footer>
